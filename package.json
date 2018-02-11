@@ -1,0 +1,24 @@
+{
+  "name": "QuickFilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/code.js",
+  "scripts": {
+    "clasp": "clasp",
+    "build": "webpack",
+    "deploy": "npm run build && clasp push"
+  },
+  "author": "Tact Yoshida",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@google/clasp": "^1.1.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "es3ify-webpack-plugin": "0.0.1",
+    "gas-webpack-plugin": "^0.2.1",
+    "webpack": "^3.11.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Gmail",
+      "serviceId": "gmail",
+      "version": "v1"
+    }]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/gmail.labels",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/gmail.settings.basic"
+  ],
+  "gmail": {
+    "name": "Quick Filter",
+    "logoUrl": "https://www.gstatic.com/images/icons/material/system/2x/gavel_black_24dp.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4",
+    "openLinkUrlPrefixes": ["https://mail.google.com/"],
+    "version": "TRUSTED_TESTER_V2"
+  }
+}
